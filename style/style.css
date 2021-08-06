@@ -2,3 +2,30 @@
     margin: 0;
     padding: 0;
 }
+.container{
+    max-width: 1140px;
+    width: 100%;
+    margin: 0 auto;
+}
+.nav{
+    background: #322E41;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 14px;
+}
+.nav__right{
+    display: flex;
+    list-style: none;
+}
+.nav__right-title{
+    padding: 23px 14px;
+    color: white;
+    text-decoration: none;
+}
+.nav__right-title:hover{
+    background: white;
+    color: #D47300 ;
+}
